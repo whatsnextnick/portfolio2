@@ -4,11 +4,10 @@
   
   # Directory to publish (Vite default output)
   publish = "dist"
-  
-  # Node.js version
-  environment = { NODE_VERSION = "18" }
 
 [build.environment]
+  # Node.js version
+  NODE_VERSION = "18"
   # Set CI environment variable to prevent interactive prompts
   CI = "true"
 
