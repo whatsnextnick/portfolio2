@@ -130,7 +130,7 @@ const AdamBackground: React.FC = () => {
     // Initialize variables in outer scope for cleanup
     let mainTimeline: gsap.core.Timeline | null = null
     let regionAnimations: gsap.core.Tween[] = []
-    let ballAnimation: gsap.core.Tween | null = null
+    let ballAnimation: gsap.core.Timeline | null = null
 
     // Handle resize function in outer scope for cleanup
     const handleResize = () => {
@@ -185,7 +185,6 @@ const AdamBackground: React.FC = () => {
         start: 'top top',
         end: 'bottom bottom',
         scrub: 1.5,
-        ease: 'none',
         invalidateOnRefresh: true,
         onUpdate: (self) => {
           const progress = self.progress
