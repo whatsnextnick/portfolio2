@@ -14,6 +14,7 @@ const Header: React.FC = () => {
 
   const navItems = [
     { href: '#about', label: 'About' },
+    { href: '#experience', label: 'Experience' },
     { href: '#projects', label: 'Projects' },
     { href: '#skills', label: 'Skills' },
     { href: '#contact', label: 'Contact' },
@@ -28,7 +29,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="text-xl font-bold text-primary hover:text-accent transition-colors">
-            ML.DEV
+            Nicholas Monplaisir
           </a>
 
           <nav className="hidden md:flex space-x-8">

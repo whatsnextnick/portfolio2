@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import AdamBackground from './components/AdamBackground'
+import Experience from './components/Experience'
 const App: React.FC = () => {
   return (
     <div className="min-h-screen relative">
@@ -15,6 +16,7 @@ const App: React.FC = () => {
       <main className="relative z-10">
         <Hero />
         <About />
+        <Experience />
         <Projects />
         <Skills />
         <Contact />
