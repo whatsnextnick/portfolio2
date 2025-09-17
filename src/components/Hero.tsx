@@ -85,12 +85,9 @@ const Hero: React.FC = () => {
                 </span>
               </h1>
               
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-secondary mb-8 leading-relaxed">
-                I am both a{' '}
-                <span className="gradient-text">Machine Learning Engineer</span>{' '}
-                (also skilled in full stack web technologies). I like to apply technologies in machine learning and AI to create solutions, turning cutting-edge research into{' '}
-                <span className="gradient-text">practical applications that drive startup innovation</span>.
-              </h2>
+              <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
+                As a Machine Learning Engineer, I use my background in full-stack web development and experience as a product owner to turn cutting-edge research into practical, data-driven solutions.
+              </p>
               
               
               <div className="flex flex-col sm:flex-row gap-4 justify-start items-start mb-12">
@@ -223,7 +220,7 @@ const Hero: React.FC = () => {
                   <img 
                     src={profilePhoto} 
                     alt="Nicholas Monplaisir - Machine Learning Engineer" 
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
                 {/* Decorative elements */}
