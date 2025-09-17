@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="text-center space-y-6">
           <div className="flex justify-center items-center gap-6">
             <a
-              href="mailto:hello@mldev.portfolio"
+              href="mailto:n.jmonplaisir@gmail.com"
               className="hover:text-accent transition-colors"
               aria-label="Email"
             >
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/mldev"
+              href="https://www.linkedin.com/in/nmonplaisir/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
               </svg>
             </a>
             <a
-              href="https://github.com/mldev"
+              href="https://github.com/whatsnextnick"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"

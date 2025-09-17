@@ -32,19 +32,8 @@ const Experience: React.FC = () => {
 
   const experiences: ExperienceItem[] = [
     {
-      company: "EPIC | US Chamber of Commerce",
+      company: "Syneurgy | EPIC | US Chamber of Commerce",
       logo: epicChamberLogo,
-      position: "Full Stack Developer (AI Integration) Intern",
-      period: "Summer 2025",
-      description: [
-        "Implemented intelligent team dynamics analysis along with an automated recommendation system by integrating OpenAI's GPT-3.5-turbo model",
-        "Leveraged insights from natural language processing and ML techniques to analyze team dynamics, generate data-driven recommendations, and provide actionable steps for teams to improve their synchrony",
-        "Built and integrated custom dashboard and UI components into the existing full-stack platform, enhancing the insights derived from the application's AI-analytics",
-        "Presented to stakeholders the technologies and methods used to implement the final dashboard/solution for the company"
-      ]
-    },
-    {
-      company: "Syneurgy",
       position: "Full Stack Developer (AI Integration) Intern",
       period: "Summer 2025",
       description: [
@@ -100,7 +89,7 @@ const Experience: React.FC = () => {
                   {/* Company Logo & Info */}
                   <div className="lg:col-span-1 flex flex-col items-center lg:items-start">
                     {exp.logo && (
-                      <div className="w-20 h-20 mb-4 rounded-lg overflow-hidden shadow-md bg-white p-2 flex items-center justify-center">
+                      <div className="w-32 h-32 mb-4 rounded-lg overflow-hidden shadow-md bg-white p-3 flex items-center justify-center">
                         <img 
                           src={exp.logo} 
                           alt={`${exp.company} logo`}

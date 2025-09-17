@@ -88,7 +88,7 @@ const About: React.FC = () => {
                 <span className="text-sm font-medium text-primary">Available for new opportunities</span>
               </div>
               <div className="h-4 w-px bg-gray-300"></div>
-              <span className="text-sm text-secondary">Remote or San Francisco Bay Area</span>
+              <span className="text-sm text-secondary">Remote or Miami, FL</span>
             </div>
           </div>
         </div>
